@@ -26,7 +26,13 @@ Responses to phrases will be sent if the message contains the phrase. If the mes
 
 ## Usage
 
-To use Parle, set up a Rust environment and run:
+To use Parle, first create a `.env` file under the root directory and enter the Discord token you obtained from the Development Portal:
+
+```env
+DISCORD_TOKEN=
+```
+
+Then, set up a Rust environment and run:
 
 ```sh
 cargo run
